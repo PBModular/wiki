@@ -6,6 +6,7 @@ import { telegram } from '../../site/icons'
 export default defineConfig({
   title: "PBModular Official Wiki",
   description: "Here you will learn how PBmodular telegram bot works and how to work with it",
+  base: '/wiki/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
