@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "docs:dev": "vitepress dev site",
+    "docs:build": "vitepress build site",
+    "docs:preview": "vitepress preview site"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.40",
+    "vitepress-plugin-tabs": "^0.5.0"
+  },
+  "dependencies": {
+    "vitepress-plugin-image-viewer": "^1.1.3"
+  }
+}
