@@ -84,7 +84,7 @@ export const configRu = {
         items: [
           { text: '☑️ Разрешения модуля', link: '/ru/module_advanced/p1' },
           { text: '💽 Использование базы данных', link: '/ru/module_advanced/p2' },
-          { text: '🔃 Колбек-функции', link: '/ru/module_advanced/p3' },
+          { text: '🔃 Callback-функции', link: '/ru/module_advanced/p3' },
           { text: '▶️ Использование загрузчика', link: '/ru/module_advanced/p4' },
           { text: '📥 Загрузка модуля', link: '/ru/module_advanced/p5' },
           { text: '📤 Выгрузка модуля', link: '/ru/module_advanced/p6' },
