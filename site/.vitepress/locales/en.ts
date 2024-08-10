@@ -2,8 +2,8 @@ import type { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
 
 export const ConfigEn: LocaleSpecificConfig<DefaultTheme.Config> = {
     nav: [
-        { text: 'Home', link: '/en/' },
-        { text: 'Introducing', link: '/en/start/p1' }
+        { text: 'Home', link: '/' },
+        { text: 'Introducing', link: '/start/p1' }
     ],
     
     editLink: {
@@ -57,24 +57,24 @@ export const ConfigEn: LocaleSpecificConfig<DefaultTheme.Config> = {
     sidebar: [
         {
           text: '👋 Introducing',
-          link: '/en/start/p1',
+          link: '/start/p1',
         },
         {
           text: '📲 Beginning of development',
           items: [
-            { text: 'Part 1', link: '/en/module_start/p1' },
+            { text: 'Part 1', link: '/module_start/p1' },
           ]
         },
         {
           text: '✏️ Module Creation',
           items: [
-            { text: 'Part 1', link: '/en/module_medium/p1' },
+            { text: 'Part 1', link: '/module_medium/p1' },
           ]
         },
         {
           text: '✨ Advanced Usage',
           items: [
-            { text: 'Part 1', link: '/en/module_advanced/p1' },
+            { text: 'Part 1', link: '/module_advanced/p1' },
           ]
         }
     ]

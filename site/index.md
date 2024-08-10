@@ -4,27 +4,27 @@ layout: home
 
 hero:
   name: "PBModular Official Wiki"
-  tagline: "Here you will learn how PBmodular telegram bot works and how to work with it"
+  tagline: "Here you will learn how PBModular telegram bot works and how to work with it"
   actions:
     - theme: brand
       text: Introducing
-      link: /en/start/p1
+      link: /start/p1
     - theme: alt
       text: Star us on GitHub
-      link: /https://github.com/PBModular/bot
+      link: https://github.com/PBModular/bot
 
 features:
   - title: Start of development
     details: Bot structure and basics
-    link: /en/module_start/p1
+    link: /module_start/p1
     linkText: Proceed to read
   - title: Creation of Modules
     details: Creation of simple Modules
-    link: /en/module_medium/p1
+    link: /module_medium/p1
     linkText: Proceed to read
   - title: Advanced Usage
     details: More complex bot features and additional module capabilities.
-    link: /en/module_advanced/p1
+    link: /module_advanced/p1
     linkText: Proceed to read
 ---
 
