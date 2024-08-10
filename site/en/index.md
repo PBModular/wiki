@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Introducing
-      link: /start/p1
+      link: /en/start/p1
     - theme: alt
       text: Star us on GitHub
       link: /https://github.com/PBModular/bot
@@ -16,15 +16,21 @@ hero:
 features:
   - title: Start of development
     details: Bot structure and basics
-    link: /module_start/p1
+    link: /en/module_start/p1
     linkText: Proceed to read
   - title: Creation of Modules
     details: Creation of simple Modules
-    link: /module_medium/p1
+    link: /en/module_medium/p1
     linkText: Proceed to read
   - title: Advanced Usage
     details: More complex bot features and additional module capabilities.
-    link: /module_advanced/p1
+    link: /en/module_advanced/p1
     linkText: Proceed to read
 ---
 
+<style>
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(135deg, #2b78a2 20%, #5cc4ff);
+}
+</style>

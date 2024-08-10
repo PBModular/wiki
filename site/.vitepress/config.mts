@@ -1,49 +1,63 @@
 import { defineConfig } from 'vitepress'
+import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 import { telegram } from '../../site/icons'
 
+import { ruConfig } from './locales/ru'
+import { enConfig } from './locales/en'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "PBModular Official Wiki",
   description: "Here you will learn how PBmodular telegram bot works and how to work with it",
+  lastUpdated: true,
+  scrollOffset: 'header',
+  cleanUrls: true,
   base: '/wiki/',
+  
+  head: [
+    [
+      'meta',
+      {
+        name: 'viewport',
+        content:
+          'width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,viewport-fit=cover',
+      },
+    ],
+    [
+      'meta',
+      {
+        name: 'apple-mobile-web-app-status-bar-style',
+        content: 'lack-translucent',
+      },
+    ],
+  ],
+
+  markdown: {
+    config(md) {
+      md.use(tabsMarkdownPlugin)
+    }
+  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Introducing', link: '/start/p1' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Introducing',
-        items: [
-          { text: 'Part 1', link: '/start/p1' },
-        ]
-      },
-      {
-        text: 'Beginning of development',
-        items: [
-          { text: 'Part 1', link: '/module_start/p1' },
-        ]
-      },
-      {
-        text: 'Module Creation',
-        items: [
-          { text: 'Part 1', link: '/module_medium/p1' },
-        ]
-      },
-      {
-        text: 'Advanced Usage',
-        items: [
-          { text: 'Part 1', link: '/module_advanced/p1' },
-        ]
-      }
-    ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/PBModular/bot' },
-      { icon: {svg: telegram}, link: 'https://t.me/PBModular_chat' }
-    ]
-  }
+      { icon: {svg: telegram}, link: 'https://t.me/PBModular_chat' },
+    ],
+  },
+
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en',
+      link: '/en/',
+      ...enConfig,
+    },
+    ru: {
+      label: 'Russian',
+      lang: 'ru',
+      link: '/ru/',
+      ...ruConfig,
+    },
+  },
 })
