@@ -8,7 +8,7 @@ import { enConfig } from './locales/en'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "PBModular Official Wiki",
-  description: "Here you will learn how PBmodular telegram bot works and how to work with it",
+  description: "Here you will learn how PBModular bot works and how to develop",
   lastUpdated: true,
   scrollOffset: 'header',
   cleanUrls: true,

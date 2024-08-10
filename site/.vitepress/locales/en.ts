@@ -47,7 +47,7 @@ export const ConfigEn: LocaleSpecificConfig<DefaultTheme.Config> = {
     },
 
     lastUpdated: {
-        text: 'Updated in ',
+        text: 'Updated in',
         formatOptions: {
         dateStyle: 'full',
         timeStyle: 'medium'
@@ -62,19 +62,42 @@ export const ConfigEn: LocaleSpecificConfig<DefaultTheme.Config> = {
         {
           text: '📲 Beginning of development',
           items: [
-            { text: 'Part 1', link: '/module_start/p1' },
+            { text: '🖥️ Bot structure', link: '/module_start/p1' },
+            { text: '📓 Module structure', link: '/module_start/p2' },
           ]
         },
         {
           text: '✏️ Module Creation',
           items: [
-            { text: 'Part 1', link: '/module_medium/p1' },
+            { text: '💻 Initial structure and a simple handler', link: '/module_medium/p1' },
+            { text: '🌎 Traslations', link: '/module_medium/p2' },
+            { text: '📁 Multifiling', link: '/module_medium/p3' },
+            { text: '☑️ Using /start', link: '/module_medium/p4' },
+            { text: '📃 Help page', link: '/module_medium/p5' },
+            { text: '✅ Command permission system', link: '/module_medium/p6' },
+            { text: '🐍 Using 3rd party python packages', link: '/module_medium/p7' },
+            { text: '📋 Getting the list of loaded modules', link: '/module_medium/p8' },
           ]
         },
         {
           text: '✨ Advanced Usage',
           items: [
-            { text: 'Part 1', link: '/module_advanced/p1' },
+            { text: '☑️ Module permissions', link: '/module_advanced/p1' },
+            { text: '💽 Database usage', link: '/module_advanced/p2' },
+            { text: '🔃 Callback functions', link: '/module_advanced/p3' },
+            { text: '▶️ Loader usage', link: '/module_advanced/p4' },
+            { text: '📥 Load module', link: '/module_advanced/p5' },
+            { text: '📤 Unload module', link: '/module_advanced/p6' },
+            { text: '✅ Downloading module', link: '/module_advanced/p7' },
+            { text: '🔄 Updating a module/extension', link: '/module_advanced/p8' },
+            { text: '🗑️ Deleting a module', link: '/module_advanced/p9' },
+            { text: '⬇️ Getting an internal name from a common name', link: '/module_advanced/p10' },
+          ]
+        },
+        {
+          text: '💬 Publishing',
+          items: [
+            { text: '💬 Publishing modules', link: '/publishing' }
           ]
         }
     ]
@@ -83,6 +106,6 @@ export const ConfigEn: LocaleSpecificConfig<DefaultTheme.Config> = {
 
 export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
     title: "PBModular Official Wiki",
-    description: "Here you will learn how PBmodular telegram bot works and how to work with it",
+    description: "Here you will learn how PBModular bot works and how to develop",
     themeConfig: ConfigEn,
 }

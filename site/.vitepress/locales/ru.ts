@@ -2,8 +2,8 @@ import type { DefaultTheme, LocaleSpecificConfig, LocaleConfig} from 'vitepress'
 
 export const configRu = {
     nav: [
-        { text: 'Home', link: '/ru/' },
-        { text: 'Introducing', link: '/ru/start/p1' }
+        { text: 'Главная', link: '/ru/' },
+        { text: 'Ознакомление', link: '/ru/start/p1' }
     ],
 
     editLink: {
@@ -47,7 +47,7 @@ export const configRu = {
     },
 
     lastUpdated: {
-        text: 'Обновлен в ',
+        text: 'Обновлен в',
         formatOptions: {
         dateStyle: 'full',
         timeStyle: 'medium'
@@ -60,21 +60,44 @@ export const configRu = {
         link: '/ru/start/p1',
       },
       {
-        text: '📲 Начало Разработки',
+        text: '📲 Начало разработки',
         items: [
-          { text: 'Part 1', link: '/ru/module_start/p1' },
+          { text: '🖥️ Структура бота', link: '/ru/module_start/p1' },
+          { text: '📓 Структура модуля', link: '/ru/module_start/p2' },
         ]
       },
       {
-        text: '✏️ Создание Модуля',
+        text: '✏️ Создание модуля',
         items: [
-          { text: 'Part 1', link: '/ru/module_medium/p1' },
+          { text: '💻 Начальная структура и простой обработчик', link: '/ru/module_medium/p1' },
+          { text: '🌎 Переводы', link: '/ru/module_medium/p2' },
+          { text: '📁 Мульти-файлинг', link: '/ru/module_medium/p3' },
+          { text: '☑️ Использование /start', link: '/ru/module_medium/p4' },
+          { text: '📃 Справка', link: '/ru/module_medium/p5' },
+          { text: '✅ Система разрешений на команды', link: '/ru/module_medium/p6' },
+          { text: '🐍 Использование сторонних Python пакетов', link: '/ru/module_medium/p7' },
+          { text: '📋 Получение списка загруженных модулей', link: '/ru/module_medium/p8' },
         ]
       },
       {
-        text: '✨ Расширенное Использование',
+        text: '✨ Расширенное использование',
         items: [
-          { text: 'Part 1', link: '/ru/module_advanced/p1' },
+          { text: '☑️ Разрешения модуля', link: '/ru/module_advanced/p1' },
+          { text: '💽 Использование базы данных', link: '/ru/module_advanced/p2' },
+          { text: '🔃 Колбек-функции', link: '/ru/module_advanced/p3' },
+          { text: '▶️ Использование загрузчика', link: '/ru/module_advanced/p4' },
+          { text: '📥 Загрузка модуля', link: '/ru/module_advanced/p5' },
+          { text: '📤 Выгрузка модуля', link: '/ru/module_advanced/p6' },
+          { text: '✅ Установка модуля', link: '/ru/module_advanced/p7' },
+          { text: '🔄 Обновление модуля/расширения', link: '/ru/module_advanced/p8' },
+          { text: '🗑️ Удаление модуля', link: '/ru/module_advanced/p9' },
+          { text: '⬇️ Получение внутреннего имени из обычного', link: '/ru/module_advanced/p10' },
+        ]
+      },
+      {
+        text: '💬 Публикация',
+        items: [
+          { text: '💬 Публикация модулей', link: '/ru/publishing' }
         ]
       }
   ]
@@ -82,7 +105,7 @@ export const configRu = {
 
 
 export const ruConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
-    title: "PBModular Wiki",
-    description: "Здесь вы узнаете, как работает телеграм-бот PBmodular и как с ним работать",
+    title: "PBModular Вики",
+    description: "Здесь вы узнаете, как работает PBModular и все его тонкости",
     themeConfig: configRu,
 }
