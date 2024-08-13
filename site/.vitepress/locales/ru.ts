@@ -71,7 +71,7 @@ export const configRu = {
         items: [
           { text: '💻 Начальная структура и простой обработчик', link: '/ru/module_medium/p1' },
           { text: '🌎 Переводы', link: '/ru/module_medium/p2' },
-          { text: '📁 Мульти-файлинг', link: '/ru/module_medium/p3' },
+          { text: '📁 Многофайловость', link: '/ru/module_medium/p3' },
           { text: '☑️ Использование /start', link: '/ru/module_medium/p4' },
           { text: '📃 Справка', link: '/ru/module_medium/p5' },
           { text: '✅ Система разрешений на команды', link: '/ru/module_medium/p6' },
