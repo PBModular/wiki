@@ -27,10 +27,3 @@ features:
     link: /module_advanced/p1
     linkText: Read
 ---
-
-<style>
-:root {
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(135deg, #2b78a2 20%, #5cc4ff);
-}
-</style>

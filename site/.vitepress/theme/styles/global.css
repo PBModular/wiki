@@ -1,6 +1,8 @@
 :root {
     --vp-border-radius: 20px;
-  
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(135deg, #2b78a2 20%, #5cc4ff);
+    
     .VPSidebarItem.level-1.is-active > .item > .indicator,
     .VPSidebarItem.level-2.is-active > .item > .indicator,
     .VPSidebarItem.level-3.is-active > .item > .indicator,
