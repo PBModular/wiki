@@ -86,12 +86,7 @@ export const configRu = {
           { text: '💽 Использование базы данных', link: '/ru/module_advanced/p2' },
           { text: '🔃 Callback-функции', link: '/ru/module_advanced/p3' },
           { text: '▶️ Использование загрузчика', link: '/ru/module_advanced/p4' },
-          { text: '📥 Загрузка модуля', link: '/ru/module_advanced/p5' },
-          { text: '📤 Выгрузка модуля', link: '/ru/module_advanced/p6' },
-          { text: '✅ Установка модуля', link: '/ru/module_advanced/p7' },
-          { text: '🔄 Обновление модуля/расширения', link: '/ru/module_advanced/p8' },
-          { text: '🗑️ Удаление модуля', link: '/ru/module_advanced/p9' },
-          { text: '⬇️ Получение внутреннего имени из обычного', link: '/ru/module_advanced/p10' },
+          { text: '🤖 Дополнительные функции бота', link: '/module_advanced/p5' }
         ]
       },
       {

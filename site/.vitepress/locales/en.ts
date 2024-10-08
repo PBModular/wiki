@@ -86,12 +86,7 @@ export const ConfigEn: LocaleSpecificConfig<DefaultTheme.Config> = {
             { text: '💽 Database usage', link: '/module_advanced/p2' },
             { text: '🔃 Callback functions', link: '/module_advanced/p3' },
             { text: '▶️ Loader usage', link: '/module_advanced/p4' },
-            { text: '📥 Load module', link: '/module_advanced/p5' },
-            { text: '📤 Unload module', link: '/module_advanced/p6' },
-            { text: '✅ Downloading module', link: '/module_advanced/p7' },
-            { text: '🔄 Updating a module/extension', link: '/module_advanced/p8' },
-            { text: '🗑️ Deleting a module', link: '/module_advanced/p9' },
-            { text: '⬇️ Getting an internal name from a common name', link: '/module_advanced/p10' },
+            { text: '🤖 Additional bot functions', link: '/module_advanced/p5' }
           ]
         },
         {
