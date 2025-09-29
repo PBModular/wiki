@@ -77,6 +77,7 @@ export const configRu = {
           { text: '✅ Система разрешений на команды', link: '/ru/module_medium/p6' },
           { text: '🐍 Использование сторонних Python пакетов', link: '/ru/module_medium/p7' },
           { text: '📋 Получение списка загруженных модулей', link: '/ru/module_medium/p8' },
+          { text: '🚦 Finite State Machine (FSM)', link: '/module_medium/p9' }
         ]
       },
       {

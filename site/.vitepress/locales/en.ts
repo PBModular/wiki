@@ -77,6 +77,7 @@ export const ConfigEn: LocaleSpecificConfig<DefaultTheme.Config> = {
             { text: '✅ Command permission system', link: '/module_medium/p6' },
             { text: '🐍 Using 3rd party python packages', link: '/module_medium/p7' },
             { text: '📋 Getting the list of loaded modules', link: '/module_medium/p8' },
+            { text: '🚦 Finite State Machine (FSM)', link: '/module_medium/p9' }
           ]
         },
         {
