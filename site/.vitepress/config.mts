@@ -40,6 +40,9 @@ export default defineConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local'
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/PBModular/bot' },
       { icon: {svg: telegram}, link: 'https://t.me/PBModular_chat' },
